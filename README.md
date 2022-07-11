@@ -42,3 +42,22 @@ Comentários em CSS:
 ```
 
 Uma maneira de centralizar um elemento horizontalmente é definindo as propriedades `margin-left` e `margin-right` com o valor **auto**.
+
+**Seletor de classe** é definido por um nome com um ponto na frente:
+```css
+.class-name {
+    styles
+}
+```
+
+Para adicionar uma imagem de fundo na página podemos usar a propiedade `background-image`:
+```CSS
+body{
+background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)
+}
+```
+Elementos `article` comumente contêm vários elementos que possuem informações relacionada.
+
+Elementos `p` são elementos *em nível de bloco*, então eles ocupam toda a largura do seu elemento pai. Para mudar essa característica, podemos adicionar a propriedade `display` com valor **inline-block** e assim estilizando os elementos `p`, eles vão se comportar mais como elementos em linha. 
+
+Os elementos com a propriedade **inline-block** só ocupam a largura do seu conteúdo. Então para distribuí-los é preciso que o elementos tenham seu **width** ajustado.
