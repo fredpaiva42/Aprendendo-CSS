@@ -61,3 +61,29 @@ Elementos `article` comumente contêm vários elementos que possuem informaçõe
 Elementos `p` são elementos *em nível de bloco*, então eles ocupam toda a largura do seu elemento pai. Para mudar essa característica, podemos adicionar a propriedade `display` com valor **inline-block** e assim estilizando os elementos `p`, eles vão se comportar mais como elementos em linha. 
 
 Os elementos com a propriedade **inline-block** só ocupam a largura do seu conteúdo. Então para distribuí-los é preciso que o elementos tenham seu **width** ajustado.
+
+Para mexer no espaçamento interno de um elemento, nós podemos usar a propriedade `padding`.
+```CSS
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+```
+
+Para evitar que em telas muito amplas os elementos fiquem muito distantes um do outro, podems fazer uso da propriedade `max-width`.
+
+É possível alterar o estilo de fonte com `font-family`, para que o texto fique diferente do estilo de fonte padrão do navegador. Cada navegador tem algumas fontes comuns já disponíveis. É bom adicionar um valor de **fallback** para a `font-family` adicionando outro nome de fonte separado por uma vírgula. Os fallbacks são usados em instâncias onde a fonte inicial não é encontrada ou não está disponível.
+```CSS
+h1 {
+    font-family: Heveltica, Impact; /*Nesse caso a Impact é o nosso fallback*/
+}
+```
+
+Conseguimos alterar o estilo das fontes com a propriedade `font-style`, nela temos os valores como **bold**, **italic** e etc.
+
+A tipografia dos elementos do cabeçalho (por exemplo, `h1`, `h2`) é definida por valores padrão dos navegadores. Porém podem ser alteradas com a propriedade `font-size`.
+
+Com o elemento `<hr>` podemos dividir as seções de conteúdo diferente com uma linha. As propriedades padrões farão com que o `<hr>` apareça como uma linha cinza claro fina. 
