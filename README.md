@@ -87,3 +87,24 @@ Conseguimos alterar o estilo das fontes com a propriedade `font-style`, nela tem
 A tipografia dos elementos do cabeçalho (por exemplo, `h1`, `h2`) é definida por valores padrão dos navegadores. Porém podem ser alteradas com a propriedade `font-size`.
 
 Com o elemento `<hr>` podemos dividir as seções de conteúdo diferente com uma linha. As propriedades padrões farão com que o `<hr>` apareça como uma linha cinza claro fina. 
+
+Você muda as propriedade de um link quando o link tenha sido visitado de fato usando um *pseudosseletor*:
+```CSS
+a:visited {
+    color: gray;
+}
+```
+
+Você muda as propriedades de um link quando o mouse passa sobre ele usando um *pseudosseletor*:
+```CSS
+a:hover {
+    color: brown;
+}
+``` 
+
+Você muda as propriedades de um link quando o link tiver sido clicado de fato usando um *pseudosseletor*:
+```CSS
+a:active {
+    color: white;
+}
+```
