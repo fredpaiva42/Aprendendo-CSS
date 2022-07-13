@@ -1,5 +1,8 @@
 # Aprendendo CSS
 
+Imagem final da Página:
+![](Menu%20da%20Cafeteria.png)
+
 Podemos adicionar estilo a um elemento, especifiando-o dentro do `<style>` e definindo uma propriedade para ele.
 ```CSS
 element {
